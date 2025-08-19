@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InstruTrack">
         <activity
+            android:name=".NewPassword"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
             android:name=".RegisterPage"
             android:exported="false" />
         <activity
