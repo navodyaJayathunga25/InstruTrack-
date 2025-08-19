@@ -6,6 +6,7 @@
     <color name="primary">#FF000000</color>
     <color name="secondary">#FFFFFFFF</color>
     <color name="accent">#F4BC47</color>
+    <color name="lightGray">#372F2F</color>
 
 
 </resources>
