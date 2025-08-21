@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primary"
+    android:orientation="vertical"
     tools:context=".RegisterPage">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="16dp">
-
         <TextView
-            android:id="@+id/newpwd"
+            android:id="@+id/createAcc"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:layout_marginLeft="30sp"
@@ -34,19 +28,19 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/enterNewPwd"
-                android:layout_width="169dp"
+                android:id="@+id/haveAcc"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30sp"
+                android:layout_marginStart="30dp"
                 android:fontFamily="@font/ptserif_regular"
                 android:text="@string/haveAccount"
                 android:textColor="@color/secondary" />
 
             <TextView
-                android:id="@+id/signup"
+                android:id="@+id/signIn2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5sp"
+                android:layout_marginLeft="20dp"
                 android:fontFamily="@font/ptserif_regular"
                 android:text="@string/signIn"
                 android:textColor="@color/accent" />
@@ -56,10 +50,10 @@
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:layout_marginLeft="30sp"
-            android:layout_marginTop="30sp"
-            android:layout_marginRight="30sp"
-            android:layout_marginBottom="30sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
             android:background="@drawable/roundedcorners"
             android:drawableStart="@drawable/user"
             android:drawablePadding="10dp"
@@ -67,8 +61,8 @@
             android:fontFamily="@font/ptserif_regular"
             android:hint="@string/name"
             android:inputType="text"
-            android:paddingLeft="16sp"
-            android:text="Name"
+            android:paddingLeft="16dp"
+            android:textColor="@color/primary"
             android:textColorHint="@color/lightGray"
             android:textSize="16sp" />
 
@@ -86,12 +80,13 @@
             android:fontFamily="@font/ptserif_regular"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:paddingLeft="16sp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/primary"
             android:textColorHint="@color/lightGray"
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/confirmPwd"
+            android:id="@+id/pwd"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginLeft="30dp"
@@ -104,15 +99,16 @@
             android:fontFamily="@font/ptserif_regular"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:paddingLeft="16sp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/primary"
             android:textColorHint="@color/lightGray"
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/btnConfirmPwd"
-            android:layout_width="match_parent"
+            android:id="@+id/btnSignUpMain"
+            android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:layout_marginLeft="280dp"
+            android:layout_marginStart="250dp"
             android:layout_marginRight="30dp"
             android:layout_marginBottom="210dp"
             android:backgroundTint="@color/accent"
@@ -126,6 +122,4 @@
             android:textSize="16sp"
             android:textStyle="bold" />
 
-    </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

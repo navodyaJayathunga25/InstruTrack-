@@ -17,4 +17,41 @@
     <string name="enterNewPwd">Please enter your new password.</string>
     <string name="confirmPwd">Confirm password</string>
     <string name="btnConfirmPwd">Confirm password\n</string>
+    <string name="backbutton1"><![CDATA[<]]></string>
+    <string name="all">All</string>
+    <string name="guitar">Guitar</string>
+    <string name="piano">Piano</string>
+    <string name="drums">Drums</string>
+    <string name="violin">Violin</string>
+    <string name="flute">Flute</string>
+    <string name="forYou">SONGS FOR YOU</string>
+    <string name="viewAll">VIEW ALL</string>
+    <string name="songName1">Bliss</string>
+    <string name="songArtist1">Luke Bergs</string>
+    <string name="songName2">Happy Clappy</string>
+    <string name="songName3">Penumbra</string>
+    <string name="songName4">Watermelon</string>
+    <string name="songName5">FreshMind</string>
+    <string name="songName6">Dream Up</string>
+    <string name="songName7">The Open Sky</string>
+    <string name="songName8">Run Free</string>
+    <string name="songName9">Back To You</string>
+    <string name="songName10">Home</string>
+    <string name="songArtist2">Scoot Buckley</string>
+    <string name="songArtist3">Alex</string>
+    <string name="songArtist4">Roa</string>
+    <string name="songArtist5">Alexander Nakarada</string>
+    <string name="songArtist6">Max Ko</string>
+    <string name="songArtist7">Spheria</string>
+    <string name="songArtist8">Wavecont</string>
+    <string name="songArtist9">John Bartman</string>
+    <string name="songArtist10">Luke Bergs</string>
+    <string name="homei">Home</string>
+    <string name="instru">Instruments</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="profile">Profile</string>
+    <string name="userName">navodyajayathunga25</string>
+
+
 </resources>
