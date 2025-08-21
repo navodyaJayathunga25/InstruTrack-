@@ -44,8 +44,55 @@ class HomePage : AppCompatActivity() {
         }
 
         //Instrument Page
+
+        val instrument = findViewById<android.widget.TextView>(R.id.instru)
+        instrument.setOnClickListener{
+            val intent = Intent(this, InstrumentsPage::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        val instrumentImg = findViewById<android.widget.ImageView>(R.id.instruImage)
+        instrumentImg.setOnClickListener {
+            val intent = Intent(this, InstrumentsPage::class.java)
+            startActivity(intent)
+            finish()
+        }
+
         //Search Page
+
+        val searchText = findViewById<android.widget.TextView>(R.id.search)
+        searchText.setOnClickListener{
+            val intent = Intent(this, SearchPage::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        val searchImage = findViewById<android.widget.ImageView>(R.id.searchImage)
+        searchImage.setOnClickListener {
+            val intent = Intent(this, SearchPage::class.java)
+            startActivity(intent)
+            finish()
+        }
+
         //Favorite Page
+
+        val favText = findViewById<android.widget.TextView>(R.id.favorite)
+        favText.setOnClickListener{
+            val intent = Intent(this, SearchPage::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        val favImage = findViewById<android.widget.ImageView>(R.id.favoriteImage)
+        favImage.setOnClickListener {
+            val intent = Intent(this, SearchPage::class.java)
+            startActivity(intent)
+            finish()
+        }
+
         //Download Page
+
+
     }
 }

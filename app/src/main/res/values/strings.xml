@@ -52,6 +52,19 @@
     <string name="favorite">Favorite</string>
     <string name="profile">Profile</string>
     <string name="userName">navodyajayathunga25</string>
+    <string name="download">Downloads</string>
+    <string name="favou">Favorites</string>
+    <string name="playList">Playlists</string>
+    <string name="upload">Uploads</string>
+    <string name="downloadMain">DOWNLOADS</string>
+    <string name="instruMain">INSTRUMENTS</string>
+    <string name="guitar1">Guitar</string>
+    <string name="piano1">Piano</string>
+    <string name="drums1">Drums</string>
+    <string name="violin1">Violin</string>
+    <string name="flute1">Flute</string>
+    <string name="searchMain">SEARCH</string>
+    <string name="searchHint">Artists, songs and playlists</string>
 
 
 </resources>

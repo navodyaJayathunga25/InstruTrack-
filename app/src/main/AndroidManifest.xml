@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InstruTrack">
         <activity
+            android:name=".SongPlayPage"
+            android:exported="false" />
+        <activity
+            android:name=".SearchPage"
+            android:exported="false" />
+        <activity
+            android:name=".InstrumentsPage"
+            android:exported="false" />
+        <activity
+            android:name=".DownloadsPage"
+            android:exported="false" />
+        <activity
             android:name=".ProfilePage"
             android:exported="false" />
         <activity
