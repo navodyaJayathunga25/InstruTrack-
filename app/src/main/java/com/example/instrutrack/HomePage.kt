@@ -75,23 +75,37 @@ class HomePage : AppCompatActivity() {
             finish()
         }
 
-        //Favorite Page
+        //Song Play Page
 
-        val favText = findViewById<android.widget.TextView>(R.id.favorite)
-        favText.setOnClickListener{
-            val intent = Intent(this, SearchPage::class.java)
+        val playSongText = findViewById<android.widget.TextView>(R.id.songName1)
+        playSongText.setOnClickListener{
+            val intent = Intent(this, SongPlayPage::class.java)
             startActivity(intent)
             finish()
         }
 
-        val favImage = findViewById<android.widget.ImageView>(R.id.favoriteImage)
-        favImage.setOnClickListener {
-            val intent = Intent(this, SearchPage::class.java)
+        val playSongText2 = findViewById<android.widget.TextView>(R.id.songArtist1)
+        playSongText2.setOnClickListener {
+            val intent = Intent(this, SongPlayPage::class.java)
             startActivity(intent)
             finish()
         }
 
-        //Download Page
+        //Home Page
+
+        val homeText = findViewById<android.widget.TextView>(R.id.homei)
+        homeText.setOnClickListener{
+            val intent = Intent(this, HomePage::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        val homeImage = findViewById<android.widget.ImageView>(R.id.homeImage)
+        homeImage.setOnClickListener {
+            val intent = Intent(this, HomePage::class.java)
+            startActivity(intent)
+            finish()
+        }
 
 
     }

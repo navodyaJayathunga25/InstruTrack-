@@ -78,7 +78,7 @@
             android:layout_height="70dp">
 
             <ImageView
-                android:id="@+id/CoverImage4"
+                android:id="@+id/CoverImage5"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginStart="50dp"
@@ -99,7 +99,7 @@
             android:layout_height="73dp">
 
             <TextView
-                android:id="@+id/songName4"
+                android:id="@+id/songName5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -116,7 +116,7 @@
                 app:layout_constraintVertical_bias="0.317" />
 
             <TextView
-                android:id="@+id/songArtist4"
+                android:id="@+id/songArtist5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -134,11 +134,17 @@
                 android:id="@+id/dd1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="112dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="10dp"
                 android:drawableStart="@drawable/downloadone"
                 android:drawablePadding="10dp"
                 android:textSize="34sp"
-                tools:layout_editor_absoluteX="209dp"
-                tools:layout_editor_absoluteY="18dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/songName5"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -147,7 +153,7 @@
             android:layout_height="76dp">
 
             <ImageView
-                android:id="@+id/dots4"
+                android:id="@+id/dots5"
                 android:layout_width="57dp"
                 android:layout_height="45dp"
                 android:layout_marginEnd="30dp"
@@ -237,11 +243,17 @@
                 android:id="@+id/dd2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
                 android:drawableStart="@drawable/downloadone"
                 android:drawablePadding="10dp"
                 android:textSize="34sp"
-                tools:layout_editor_absoluteX="209dp"
-                tools:layout_editor_absoluteY="18dp" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/songName4"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -329,7 +341,7 @@
         <LinearLayout
             android:layout_width="430dp"
             android:layout_height="62dp"
-            android:layout_marginStart="-7dp"
+            android:layout_marginStart="-10dp"
             android:layout_marginTop="60dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
