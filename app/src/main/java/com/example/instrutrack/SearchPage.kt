@@ -28,7 +28,7 @@ class SearchPage : AppCompatActivity() {
         }
 
         //Back Button
-        val backButton1 = findViewById<android.widget.Button>(R.id.backbutton3)
+        val backButton1 = findViewById<android.widget.Button>(R.id.backbutton2)
         backButton1.setOnClickListener{
             val intent = Intent(this, HomePage::class.java)
             startActivity(intent)

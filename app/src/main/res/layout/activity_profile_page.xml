@@ -8,13 +8,26 @@
     android:background="@color/primary"
     tools:context=".ProfilePage">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="581dp"
+        android:layout_height="211dp"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/line2" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="402dp"
         android:layout_height="88dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="-80dp"
         android:layout_marginEnd="9dp"
-        android:layout_marginBottom="54dp"
+        android:layout_marginBottom="84dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +92,7 @@
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.425">
+        app:layout_constraintVertical_bias="0.633">
 
         <TextView
             android:id="@+id/download"
@@ -132,16 +145,18 @@
             android:textColor="@color/secondary"
             android:textSize="20sp"
             android:textStyle="bold" />
+
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout5"
+        android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginBottom="-650dp"
         android:layout_weight="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -149,6 +164,7 @@
             android:id="@+id/linearLayout2"
             android:layout_width="405dp"
             android:layout_height="70dp"
+            android:layout_marginStart="30dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -161,7 +177,7 @@
                 android:id="@+id/homeImage"
                 android:layout_width="52dp"
                 android:layout_height="64dp"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="30dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/home" />
 
@@ -197,20 +213,24 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="430dp"
-            android:layout_height="62dp"
-            android:layout_marginStart="-10dp"
+            android:layout_width="403dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="60dp"
+            android:layout_marginEnd="-30dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.285"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25">
 
             <TextView
                 android:id="@+id/homei"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="20dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ptserif_bold"
                 android:text="@string/homei"
@@ -243,7 +263,7 @@
                 android:id="@+id/favorite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ptserif_bold"
                 android:text="@string/favorite"
@@ -269,13 +289,13 @@
         android:id="@+id/divider8"
         android:layout_width="409dp"
         android:layout_height="1dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="63dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="26dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="4dp"
         android:background="@color/lightGray"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout5"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

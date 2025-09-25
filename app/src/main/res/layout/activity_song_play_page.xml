@@ -29,7 +29,7 @@
         app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.026" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -80,8 +80,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="385dp"
-        android:layout_height="284dp"
+        android:layout_width="379dp"
+        android:layout_height="151dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="14dp"
@@ -90,7 +90,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.255"
+        app:layout_constraintVertical_bias="0.566"
         app:srcCompat="@drawable/play" />
 
     <View
@@ -101,19 +101,20 @@
         android:layout_marginTop="19dp"
         android:layout_marginEnd="1dp"
         android:background="@color/lightGray"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
+        android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginBottom="-650dp"
         android:layout_weight="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -121,6 +122,7 @@
             android:id="@+id/linearLayout2"
             android:layout_width="405dp"
             android:layout_height="70dp"
+            android:layout_marginStart="30dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -133,7 +135,7 @@
                 android:id="@+id/homeImage"
                 android:layout_width="52dp"
                 android:layout_height="64dp"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="30dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/home" />
 
@@ -169,25 +171,28 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="430dp"
-            android:layout_height="62dp"
-            android:layout_marginStart="-10dp"
+            android:layout_width="403dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="60dp"
+            android:layout_marginEnd="-30dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.285"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25">
 
             <TextView
                 android:id="@+id/homei"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="20dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ptserif_bold"
                 android:text="@string/homei"
-                android:textColor="@color/secondary"
+                android:textColor="@color/accent"
                 android:textStyle="bold" />
 
             <TextView
@@ -216,7 +221,7 @@
                 android:id="@+id/favorite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ptserif_bold"
                 android:text="@string/favorite"

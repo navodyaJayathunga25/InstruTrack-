@@ -10,23 +10,23 @@
 
     <Button
         android:id="@+id/backbutton2"
-        android:layout_width="58dp"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:backgroundTint="@color/accent"
-        android:paddingLeft="5dp"
-        android:paddingTop="5dp"
-        android:paddingRight="5dp"
-        android:paddingBottom="5dp"
+        android:paddingStart="-10dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="-10dp"
+        android:paddingBottom="2dp"
         android:text="@string/backbutton1"
         android:textColor="@color/primary"
         android:textSize="24sp"
         android:textStyle="normal"
-        app:cornerRadius="100dp"
+        app:cornerRadius="180dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -46,19 +46,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.058" />
-
-    <ImageView
-        android:id="@+id/searchIcon"
-        android:layout_width="67dp"
-        android:layout_height="84dp"
-        android:layout_marginEnd="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024"
-        app:srcCompat="@drawable/search" />
 
     <View
         android:id="@+id/divider4"
@@ -219,13 +206,14 @@
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout3"
+        android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginBottom="-650dp"
         android:layout_weight="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -233,6 +221,7 @@
             android:id="@+id/linearLayout2"
             android:layout_width="405dp"
             android:layout_height="70dp"
+            android:layout_marginStart="30dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -245,7 +234,7 @@
                 android:id="@+id/homeImage"
                 android:layout_width="52dp"
                 android:layout_height="64dp"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="30dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/home" />
 
@@ -281,20 +270,24 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="430dp"
-            android:layout_height="62dp"
-            android:layout_marginStart="-10dp"
+            android:layout_width="403dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="60dp"
+            android:layout_marginEnd="-30dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.285"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25">
 
             <TextView
                 android:id="@+id/homei"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
+                android:layout_marginStart="20dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ptserif_bold"
                 android:text="@string/homei"
@@ -327,7 +320,7 @@
                 android:id="@+id/favorite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/ptserif_bold"
                 android:text="@string/favorite"
@@ -358,7 +351,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="11dp"
         android:background="@color/lightGray"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout3"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
